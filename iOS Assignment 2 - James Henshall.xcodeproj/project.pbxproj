@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA55B5021ECFFCD600715717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5011ECFFCD600715717 /* AppDelegate.swift */; };
+		BA55B5041ECFFCD600715717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5031ECFFCD600715717 /* ViewController.swift */; };
+		BA55B5071ECFFCD600715717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55B5051ECFFCD600715717 /* Main.storyboard */; };
+		BA55B5091ECFFCD600715717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA55B5081ECFFCD600715717 /* Assets.xcassets */; };
+		BA55B50C1ECFFCD600715717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55B50A1ECFFCD600715717 /* LaunchScreen.storyboard */; };
+		BA55B5171ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5161ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift */; };
+		BA55B5221ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5211ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA55B5131ECFFCD600715717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA55B4F61ECFFCD600715717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA55B4FD1ECFFCD600715717;
+			remoteInfo = "iOS Assignment 2 - James Henshall";
+		};
+		BA55B51E1ECFFCD600715717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA55B4F61ECFFCD600715717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA55B4FD1ECFFCD600715717;
+			remoteInfo = "iOS Assignment 2 - James Henshall";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA55B4FE1ECFFCD600715717 /* iOS Assignment 2 - James Henshall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Assignment 2 - James Henshall.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55B5011ECFFCD600715717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA55B5031ECFFCD600715717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA55B5061ECFFCD600715717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA55B5081ECFFCD600715717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA55B50B1ECFFCD600715717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA55B50D1ECFFCD600715717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55B5121ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Assignment 2 - James HenshallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55B5161ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Assignment_2___James_HenshallTests.swift"; sourceTree = "<group>"; };
+		BA55B5181ECFFCD600715717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55B51D1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Assignment 2 - James HenshallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55B5211ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Assignment_2___James_HenshallUITests.swift"; sourceTree = "<group>"; };
+		BA55B5231ECFFCD600715717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA55B4FB1ECFFCD600715717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B50F1ECFFCD600715717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B51A1ECFFCD600715717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA55B4F51ECFFCD600715717 = {
+			isa = PBXGroup;
+			children = (
+				BA55B5001ECFFCD600715717 /* iOS Assignment 2 - James Henshall */,
+				BA55B5151ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests */,
+				BA55B5201ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests */,
+				BA55B4FF1ECFFCD600715717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA55B4FF1ECFFCD600715717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA55B4FE1ECFFCD600715717 /* iOS Assignment 2 - James Henshall.app */,
+				BA55B5121ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests.xctest */,
+				BA55B51D1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA55B5001ECFFCD600715717 /* iOS Assignment 2 - James Henshall */ = {
+			isa = PBXGroup;
+			children = (
+				BA55B5011ECFFCD600715717 /* AppDelegate.swift */,
+				BA55B5031ECFFCD600715717 /* ViewController.swift */,
+				BA55B5051ECFFCD600715717 /* Main.storyboard */,
+				BA55B5081ECFFCD600715717 /* Assets.xcassets */,
+				BA55B50A1ECFFCD600715717 /* LaunchScreen.storyboard */,
+				BA55B50D1ECFFCD600715717 /* Info.plist */,
+			);
+			path = "iOS Assignment 2 - James Henshall";
+			sourceTree = "<group>";
+		};
+		BA55B5151ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA55B5161ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift */,
+				BA55B5181ECFFCD600715717 /* Info.plist */,
+			);
+			path = "iOS Assignment 2 - James HenshallTests";
+			sourceTree = "<group>";
+		};
+		BA55B5201ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA55B5211ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift */,
+				BA55B5231ECFFCD600715717 /* Info.plist */,
+			);
+			path = "iOS Assignment 2 - James HenshallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA55B4FD1ECFFCD600715717 /* iOS Assignment 2 - James Henshall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55B5261ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James Henshall" */;
+			buildPhases = (
+				BA55B4FA1ECFFCD600715717 /* Sources */,
+				BA55B4FB1ECFFCD600715717 /* Frameworks */,
+				BA55B4FC1ECFFCD600715717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Assignment 2 - James Henshall";
+			productName = "iOS Assignment 2 - James Henshall";
+			productReference = BA55B4FE1ECFFCD600715717 /* iOS Assignment 2 - James Henshall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA55B5111ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55B5291ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James HenshallTests" */;
+			buildPhases = (
+				BA55B50E1ECFFCD600715717 /* Sources */,
+				BA55B50F1ECFFCD600715717 /* Frameworks */,
+				BA55B5101ECFFCD600715717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA55B5141ECFFCD600715717 /* PBXTargetDependency */,
+			);
+			name = "iOS Assignment 2 - James HenshallTests";
+			productName = "iOS Assignment 2 - James HenshallTests";
+			productReference = BA55B5121ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA55B51C1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA55B52C1ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James HenshallUITests" */;
+			buildPhases = (
+				BA55B5191ECFFCD600715717 /* Sources */,
+				BA55B51A1ECFFCD600715717 /* Frameworks */,
+				BA55B51B1ECFFCD600715717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA55B51F1ECFFCD600715717 /* PBXTargetDependency */,
+			);
+			name = "iOS Assignment 2 - James HenshallUITests";
+			productName = "iOS Assignment 2 - James HenshallUITests";
+			productReference = BA55B51D1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA55B4F61ECFFCD600715717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fiona;
+				TargetAttributes = {
+					BA55B4FD1ECFFCD600715717 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA55B5111ECFFCD600715717 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA55B4FD1ECFFCD600715717;
+					};
+					BA55B51C1ECFFCD600715717 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA55B4FD1ECFFCD600715717;
+					};
+				};
+			};
+			buildConfigurationList = BA55B4F91ECFFCD600715717 /* Build configuration list for PBXProject "iOS Assignment 2 - James Henshall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA55B4F51ECFFCD600715717;
+			productRefGroup = BA55B4FF1ECFFCD600715717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA55B4FD1ECFFCD600715717 /* iOS Assignment 2 - James Henshall */,
+				BA55B5111ECFFCD600715717 /* iOS Assignment 2 - James HenshallTests */,
+				BA55B51C1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA55B4FC1ECFFCD600715717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55B50C1ECFFCD600715717 /* LaunchScreen.storyboard in Resources */,
+				BA55B5091ECFFCD600715717 /* Assets.xcassets in Resources */,
+				BA55B5071ECFFCD600715717 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B5101ECFFCD600715717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B51B1ECFFCD600715717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA55B4FA1ECFFCD600715717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55B5041ECFFCD600715717 /* ViewController.swift in Sources */,
+				BA55B5021ECFFCD600715717 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B50E1ECFFCD600715717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55B5171ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA55B5191ECFFCD600715717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA55B5221ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA55B5141ECFFCD600715717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA55B4FD1ECFFCD600715717 /* iOS Assignment 2 - James Henshall */;
+			targetProxy = BA55B5131ECFFCD600715717 /* PBXContainerItemProxy */;
+		};
+		BA55B51F1ECFFCD600715717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA55B4FD1ECFFCD600715717 /* iOS Assignment 2 - James Henshall */;
+			targetProxy = BA55B51E1ECFFCD600715717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA55B5051ECFFCD600715717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA55B5061ECFFCD600715717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA55B50A1ECFFCD600715717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA55B50B1ECFFCD600715717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA55B5241ECFFCD600715717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA55B5251ECFFCD600715717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA55B5271ECFFCD600715717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Assignment 2 - James Henshall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-Henshall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA55B5281ECFFCD600715717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Assignment 2 - James Henshall/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-Henshall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA55B52A1ECFFCD600715717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS Assignment 2 - James HenshallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-HenshallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Assignment 2 - James Henshall.app/iOS Assignment 2 - James Henshall";
+			};
+			name = Debug;
+		};
+		BA55B52B1ECFFCD600715717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS Assignment 2 - James HenshallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-HenshallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Assignment 2 - James Henshall.app/iOS Assignment 2 - James Henshall";
+			};
+			name = Release;
+		};
+		BA55B52D1ECFFCD600715717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS Assignment 2 - James HenshallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-HenshallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Assignment 2 - James Henshall";
+			};
+			name = Debug;
+		};
+		BA55B52E1ECFFCD600715717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS Assignment 2 - James HenshallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "j.iOS-Assignment-2---James-HenshallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Assignment 2 - James Henshall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA55B4F91ECFFCD600715717 /* Build configuration list for PBXProject "iOS Assignment 2 - James Henshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55B5241ECFFCD600715717 /* Debug */,
+				BA55B5251ECFFCD600715717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA55B5261ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James Henshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55B5271ECFFCD600715717 /* Debug */,
+				BA55B5281ECFFCD600715717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA55B5291ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James HenshallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55B52A1ECFFCD600715717 /* Debug */,
+				BA55B52B1ECFFCD600715717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA55B52C1ECFFCD600715717 /* Build configuration list for PBXNativeTarget "iOS Assignment 2 - James HenshallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA55B52D1ECFFCD600715717 /* Debug */,
+				BA55B52E1ECFFCD600715717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA55B4F61ECFFCD600715717 /* Project object */;
+}
