@@ -14,9 +14,9 @@
 		BA55B50C1ECFFCD600715717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55B50A1ECFFCD600715717 /* LaunchScreen.storyboard */; };
 		BA55B5171ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5161ECFFCD600715717 /* iOS_Assignment_2___James_HenshallTests.swift */; };
 		BA55B5221ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5211ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift */; };
-		BA55B5301ECFFE6C00715717 /* ArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B52F1ECFFE6C00715717 /* ArrayController.swift */; };
 		BA55B5341ED0049800715717 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5331ED0049800715717 /* ViewController2.swift */; };
 		BA55B5361ED009E800715717 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55B5351ED009E800715717 /* ViewController3.swift */; };
+		BABDD2721ED330110017F2AC /* ArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABDD2711ED330110017F2AC /* ArrayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		BA55B51D1ECFFCD600715717 /* iOS Assignment 2 - James HenshallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Assignment 2 - James HenshallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA55B5211ECFFCD600715717 /* iOS_Assignment_2___James_HenshallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Assignment_2___James_HenshallUITests.swift"; sourceTree = "<group>"; };
 		BA55B5231ECFFCD600715717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA55B52F1ECFFE6C00715717 /* ArrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayController.swift; sourceTree = "<group>"; };
 		BA55B5331ED0049800715717 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		BA55B5351ED009E800715717 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BABDD2711ED330110017F2AC /* ArrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayController.swift; path = ../ArrayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		BA55B5001ECFFCD600715717 /* iOS Assignment 2 - James Henshall */ = {
 			isa = PBXGroup;
 			children = (
+				BABDD2711ED330110017F2AC /* ArrayController.swift */,
 				BA55B5011ECFFCD600715717 /* AppDelegate.swift */,
 				BA55B5031ECFFCD600715717 /* ViewController.swift */,
 				BA55B5051ECFFCD600715717 /* Main.storyboard */,
@@ -110,7 +111,6 @@
 				BA55B5081ECFFCD600715717 /* Assets.xcassets */,
 				BA55B50A1ECFFCD600715717 /* LaunchScreen.storyboard */,
 				BA55B50D1ECFFCD600715717 /* Info.plist */,
-				BA55B52F1ECFFE6C00715717 /* ArrayController.swift */,
 				BA55B5351ED009E800715717 /* ViewController3.swift */,
 			);
 			path = "iOS Assignment 2 - James Henshall";
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA55B5361ED009E800715717 /* ViewController3.swift in Sources */,
-				BA55B5301ECFFE6C00715717 /* ArrayController.swift in Sources */,
+				BABDD2721ED330110017F2AC /* ArrayController.swift in Sources */,
 				BA55B5341ED0049800715717 /* ViewController2.swift in Sources */,
 				BA55B5041ECFFCD600715717 /* ViewController.swift in Sources */,
 				BA55B5021ECFFCD600715717 /* AppDelegate.swift in Sources */,
